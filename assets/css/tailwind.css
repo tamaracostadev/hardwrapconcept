@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient, .gradient-menu{
+    background-image: linear-gradient(to right, #8f8163, #c7b686, #8f8163);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  .gradient:hover, .gradient-menu:hover{
+    background-image: linear-gradient(to right, #b49f75, #fff0cc, #b49f75);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
